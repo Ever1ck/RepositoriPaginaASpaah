@@ -1,0 +1,57 @@
+.slider__container{
+    height: 350px;
+}
+
+.slider__element img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.glide__slide{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.glide__slide img{
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid rgba(0,0,0,0.4) ;
+}
+.glide__slide p{
+    text-align: center;
+}
+.slider-container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+}
+.icon{
+    margin: 0 15px 0 0;
+}
+.mapouter{
+    position: relative;
+    box-sizing: border-box;
+    width: 1356px;
+}
+footer{
+    height: auto;
+}
+.footer_logo img{
+    height: 100px;
+}
+.img-qs-1 img{
+    height: auto;
+    max-width: 100%;
+}
+.img-qs-2 img{
+    height: auto;
+    max-width: 100%;
+}
