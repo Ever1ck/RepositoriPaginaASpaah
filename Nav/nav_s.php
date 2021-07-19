@@ -26,7 +26,7 @@
                     <a id="nav-link" class="nav-link navbar-brand" href="quienes-somos.php">¿Quienes somos?</a>
                 </li>
                 <li class="nav-item">
-                    <a id="nav-link" class="nav-link navbar-brand" href="socios">Socios</a>
+                    <a id="nav-link" class="nav-link navbar-brand" href="socios.php">Socios</a>
                 </li>
                 <li class="nav-item">
                     <a id="nav-link" class="nav-link navbar-brand" href="productos.php">Productos</a>

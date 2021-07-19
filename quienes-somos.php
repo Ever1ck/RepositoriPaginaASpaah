@@ -58,7 +58,7 @@
                     <div class="row px-5">
                         <p style="text-align: justify;">
                             <span style="font-size: 12pt;">
-                                El 99% de empresas en el país son micro y pequeñas empresas, aportan más del 50% del Producto Bruto Interno y son las principales generadoras de empleo en la economía; sin embargo, solo 3 de cada 10 sobreviven (tienen una tasa de mortalidad del 70% aproximadamente) y con un tiempo máximo de 5 años de vida.
+                                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
                             </span>
                         </p>
                         <p style="text-align: justify;">
@@ -69,7 +69,7 @@
                         <p style="text-align: justify;">
                             <span style="font-size: 12pt;">
                                 <br>
-                                La asesora y consultora INAEM, entendiendo esta situación, te brindará la solución a esos problemas que no te permiten avanzar, mediante acciones oportunas orientadas a tu bienestar.
+                                La asesora y consultora ASSPAH, entendiendo esta situación, te brindará la solución a esos problemas que no te permiten avanzar, mediante acciones oportunas orientadas a tu bienestar.
                                 <br>
                             </span>
                         </p>

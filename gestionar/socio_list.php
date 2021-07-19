@@ -33,6 +33,8 @@
       <th scope="col" colspan="2">Opciones</th>
     </tr>
   </thead>
+
+
   <?php
   include("../conexion.php");
   $conexion=new ConexionDB();

@@ -5,7 +5,7 @@
 <form method="post" id="formulario">
   <input type="hidden" name="go" value="create">
   <fieldset>
-    <legend>Legend</legend>
+    <legend>Agregar Socio</legend>
     <div class="form-group">
       <label class="mt-4" style="color: black">Nombres</label>
       <input type="text" class="form-control" name="nombres" placeholder="Ingrese nombres" required>

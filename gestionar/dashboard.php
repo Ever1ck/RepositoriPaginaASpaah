@@ -27,11 +27,11 @@
   </div>
 </div>
 <div class="row bg-dark">
-	<div class="col-md-5 text-center ">
+	<div class="col-md-5 text-center text-white">
     <h5>Cantidad de Maquimarias por Tipo</h5>
 		<div id="chartdiv" class="chartdiv"></div>
 	</div>
-	<div class="col-md-7 text-center">
+	<div class="col-md-7 text-center text-white">
     <h5>Cantidad de socios por mes de nacimiento</h5>
     <div id="divbarras" class="chartdiv"></div>
   </div>

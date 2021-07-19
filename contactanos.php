@@ -19,7 +19,7 @@
 </head>
 <body>
 <!-- Header -->
-<header class="container-fluid py-2 pt-4" style="height: 400px; background-repeat: no-repeat;background-size: cover; background-image: url('./img/fondo2.jpg')">
+<header class="container-fluid py-2 pt-4 mb-5" style="height: 400px; background-repeat: no-repeat;background-size: cover; background-image: url('./img/fondo2.jpg')">
     <!-- NavBar -->
     <?php
     include ("php/sesiones.php")

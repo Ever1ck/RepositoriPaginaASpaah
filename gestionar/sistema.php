@@ -29,7 +29,7 @@ if (!isset($_SESSION['id'])) {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExample07">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a id="nav-link" class="nav-link navbar-brand" href="../index.php">Inicio</a>
                     </li>
@@ -53,7 +53,7 @@ if (!isset($_SESSION['id'])) {
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                 <li><a class="dropdown-item" href="#">Perfil</a></li>
-                                <li><a class="dropdown-item" href="gestionar/sistema.php">Gestionar</a></li>
+                                <li><a class="dropdown-item" href="">Gestionar</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="../logout.php">Cerrar Sesion</a></li>
                             </ul>

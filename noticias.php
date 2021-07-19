@@ -7,7 +7,7 @@
     <title>.::NOTICIAS::.</title>
     <link rel="stylesheet" href="css/mainstyle.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/slider.css">
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap" rel="stylesheet">
@@ -51,16 +51,136 @@
 <!-- Content -->
 <div class="container-fluid bg-white mb-5">
     <!-- About us -->
-    <div class="container-fluid bg-secondary">
-        <div class="row content-info h-100 py-5">
+    <div class="container-fluid bg-success">
+        <div class="row content-info h-100 py-5 px-5">
             <div class="col-md-3 imagen-inform d-flex">
-                <img src="img/aldahyr1.jpg" alt width="100%">
+                <img id="yohe" src="img/aldahyr1.jpg" alt width="100%">
             </div>
             <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
-                <h4 align=center class="cursive text-warning">MARTES 1 DE JUNIO</h4>
-                <h2 class="mb-4">Dia de la Leche</h2>
-                <p>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
-                <p>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-info">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr3.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9  order-first text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">24 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">FELIZ ANIVERSARIO ASPAAH</h2>
+                <p align=justify>Feliz día a todos los productores agropecuarios y en especial a la organización ASPAAH PUNO, que un día como hoy inicia sus actividades oficialmente con el compromiso de cambiar la realidad de sector ganadero en nuestra región de Puno y en especial nuestra Provincia de San Román. Atte. El consejo directivo.</p>
+                <p align=justify>Por un año mas al servicio de cada persona, la organisacion ASPAAH le hace llegar una invitacion a usted emprendedor, agricultor a ser socio de esta familia y llevar bien en alto nuestra cultura puneña. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-success">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr2.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-info">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img id="yohe" src="img/aldahyr1.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-success">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr3.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9  order-first text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">24 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">FELIZ ANIVERSARIO ASPAAH</h2>
+                <p align=justify>Feliz día a todos los productores agropecuarios y en especial a la organización ASPAAH PUNO, que un día como hoy inicia sus actividades oficialmente con el compromiso de cambiar la realidad de sector ganadero en nuestra región de Puno y en especial nuestra Provincia de San Román. Atte. El consejo directivo.</p>
+                <p align=justify>Por un año mas al servicio de cada persona, la organisacion ASPAAH le hace llegar una invitacion a usted emprendedor, agricultor a ser socio de esta familia y llevar bien en alto nuestra cultura puneña. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-info">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr2.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-success">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+            <div class="col-md-3 imagen-inform d-flex">
+                <img id="yohe" src="img/aldahyr1.jpg" alt width="100%">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-info">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr3.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9  order-first text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">24 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">FELIZ ANIVERSARIO ASPAAH</h2>
+                <p align=justify>Feliz día a todos los productores agropecuarios y en especial a la organización ASPAAH PUNO, que un día como hoy inicia sus actividades oficialmente con el compromiso de cambiar la realidad de sector ganadero en nuestra región de Puno y en especial nuestra Provincia de San Román. Atte. El consejo directivo.</p>
+                <p align=justify>Por un año mas al servicio de cada persona, la organisacion ASPAAH le hace llegar una invitacion a usted emprendedor, agricultor a ser socio de esta familia y llevar bien en alto nuestra cultura puneña. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-success">
+        <div class="row content-info h-100 py-5 px-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr2.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
                 <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
             </div>
         </div>
@@ -71,11 +191,11 @@
             <div class="col-md-3 imagen-inform d-flex">
                 <img src="img/aldahyr3.jpg" alt width="100%">
             </div>
-            <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
-                <h4 align=center class="cursive text-warning">24 DE JUNIO</h4>
-                <h2 class="mb-4">FELIZ ANIVERSARIO ASPAAH</h2>
-                <p>Feliz día a todos los productores agropecuarios y en especial a la organización ASPAAH PUNO, que un día como hoy inicia sus actividades oficialmente con el compromiso de cambiar la realidad de sector ganadero en nuestra región de Puno y en especial nuestra Provincia de San Román. Atte. El consejo directivo.</p>
-                <p>Por un año mas al servicio de cada persona, la organisacion ASPAAH le hace llegar una invitacion a usted emprendedor, agricultor a ser socio de esta familia y llevar bien en alto nuestra cultura puneña. </p>
+            <div class="col-md-9  order-first text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">24 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">FELIZ ANIVERSARIO ASPAAH</h2>
+                <p align=justify>Feliz día a todos los productores agropecuarios y en especial a la organización ASPAAH PUNO, que un día como hoy inicia sus actividades oficialmente con el compromiso de cambiar la realidad de sector ganadero en nuestra región de Puno y en especial nuestra Provincia de San Román. Atte. El consejo directivo.</p>
+                <p align=justify>Por un año mas al servicio de cada persona, la organisacion ASPAAH le hace llegar una invitacion a usted emprendedor, agricultor a ser socio de esta familia y llevar bien en alto nuestra cultura puneña. </p>
                 <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
             </div>
         </div>
@@ -87,17 +207,33 @@
                 <img src="img/aldahyr2.jpg" alt width="100%">
             </div>
             <div class="col-md-9 text-white text-center text-md-start pt-3 p-md-0">
-                <h4 align=center class="cursive text-warning"> 30 DE MAYO</h4>
-                <h2 class="mb-4">Feliz Dia de la Papa</h2>
-                <p>Gracias a una resolución suprema del 23 de febrero de 2005, el Perú celebra el Día Nacional de la Papa el 30 de mayo de cada año, esto con la idea de valorar su riqueza en cuanto a biodiversidad y promover su mayor consumo.</p>
-                <p>La asociacion ASPAAH hace llegar un saludo cordia a todos los productores de papa e invitarles a ser parte del segundo concurso de papas nativas ASPAAH, con la finalidad de promover el consumo de este tuberculo que crece en nuetro territorio Puneño.</p>
+                <h4 align=justify class="cursive text-warning">MARTES 1 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">Dia de la Leche</h2>
+                <p align=justify>El Día Internacional de la Leche se celebra todos los años el 1 de junio. Se trata de un día en el que se pretende enseñar a la población mundial los beneficios que la leche a aporta al ser humano.</p>
+                <p align=justify>Por ello ASPAAH promueve al consumo de la leche para personas de todas las edades. invitandote al PRIMER CONCURSO DE CALIDADES A LA MEJOR LECHE y optras acticidades que realisamos en omenaje no solo a la leche, sino que a los productores de leche de Puno. </p>
                 <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
             </div>
         </div>
     </div>
+    <br>
+    <div class="container-fluid bg-secondary">
+        <div class="row content-info h-100 py-5">
+            <div class="col-md-3 imagen-inform d-flex">
+                <img src="img/aldahyr3.jpg" alt width="100%">
+            </div>
+            <div class="col-md-9  order-first text-white text-center text-md-start pt-3 p-md-0">
+                <h4 align=justify class="cursive text-warning">24 DE JUNIO</h4>
+                <h2 align=justify class="mb-4">FELIZ ANIVERSARIO ASPAAH</h2>
+                <p align=justify>Feliz día a todos los productores agropecuarios y en especial a la organización ASPAAH PUNO, que un día como hoy inicia sus actividades oficialmente con el compromiso de cambiar la realidad de sector ganadero en nuestra región de Puno y en especial nuestra Provincia de San Román. Atte. El consejo directivo.</p>
+                <p align=justify>Por un año mas al servicio de cada persona, la organisacion ASPAAH le hace llegar una invitacion a usted emprendedor, agricultor a ser socio de esta familia y llevar bien en alto nuestra cultura puneña. </p>
+                <a class="btn btn-warning px-4" href="#">VER MAS.....</a>
+            </div>
+        </div>
+    </div>
+    <br>
 </div>
 <!-- Footer -->
-<footer id="footer" class="footer style_1 bg-dark pt-5">
+<footer id="footer" class="footer style_1 bg-info pt-5">
     <div class="widgets_row">
         <div class="container">
             <div class="footer_widgets">
