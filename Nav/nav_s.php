@@ -5,8 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/mainstyle.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -19,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExample07">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a id="nav-link" class="nav-link navbar-brand" href="index.php">Inicio</a>
                 </li>
@@ -28,8 +27,6 @@
                 </li>
                 <li class="nav-item">
                     <a id="nav-link" class="nav-link navbar-brand" href="socios">Socios</a>
-                <li class="nav-item">
-                    <a id="nav-link" class="nav-link navbar-brand" href="inicio2.php">Maquinaria</a>
                 </li>
                 <li class="nav-item">
                     <a id="nav-link" class="nav-link navbar-brand" href="productos.php">Productos</a>
@@ -49,7 +46,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                             <li><a class="dropdown-item" href="#">Perfil</a></li>
-                            <li><a class="dropdown-item" href="#">Gestionar</a></li>
+                            <li><a class="dropdown-item" href="gestionar/sistema.php">Gestionar</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="logout.php">Cerrar Sesion</a></li>
                         </ul>

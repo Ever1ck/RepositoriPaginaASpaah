@@ -1,5 +1,4 @@
 header {
-    background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -18,9 +17,6 @@ header #nav-link-home {
 @media screen and (min-width: 998px) {
     header #nav-link-home {
         opacity: 1; } }
-@media screen and (min-width: 766px) {
-    header {
-        background-image: url("../img/fondo1.jpg"); } }
 
 
 nav .logo {
@@ -36,6 +32,7 @@ nav .logo img{
     margin: auto;
     transform: rotate(-45deg);
 }
+
 
 .cursive {
     font-family: 'Caveat', cursive; }
@@ -156,3 +153,30 @@ nav .logo img{
 
 .socios-line-bottom {
     border-top: solid 1px gray; }
+
+footer{
+    height: auto;
+}
+.footer_logo img{
+    height: 100px;
+}
+.img-qs-1 img{
+    height: auto;
+    max-width: 100%;
+}
+.img-qs-2 img{
+    height: auto;
+    max-width: 100%;
+}
+
+.letra{
+    font-size: xxx-large;
+}
+
+.letra1{
+    font-size: x-small;
+}
+
+.letra2{
+    font-size: x-large;
+}

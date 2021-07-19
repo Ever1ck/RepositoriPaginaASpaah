@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.::NOTICIAS::.</title>
     <link rel="stylesheet" href="css/mainstyle.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap" rel="stylesheet">
@@ -97,7 +97,7 @@
     </div>
 </div>
 <!-- Footer -->
-<footer id="footer" class="footer style_1 bg-info pt-5">
+<footer id="footer" class="footer style_1 bg-dark pt-5">
     <div class="widgets_row">
         <div class="container">
             <div class="footer_widgets">

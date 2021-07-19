@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.::ASPAAH::.</title>
     <link rel="stylesheet" href="css/mainstyle.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slider.css">
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,11 +19,9 @@
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 <body class="bg-secondary">
-
-
 <!-- Header -->
 
-<header class="container-fluid py-2 pt-4 mb-3" style="height: 100vh; background-repeat: no-repeat;background-size: cover; background-image: url('./img/FondoPantalla1.jpeg');">
+<header class="container-fluid py-2 pt-4 " style="height: 100vh; background-repeat: no-repeat;background-size: cover; background-image: url('./img/FondoPantalla1.jpeg');">
     
     <!-- NavBar -->
     <?php
@@ -31,24 +29,24 @@
     ?>
 
     <!-- Main -->
-    <main class="row title-container py-5">
+    <main class="row title-container m-auto" style="height: 100vh">
         <!-- Title -->
         <div class="col-md-6 d-flex justify-content-center flex-column ps-md-5 text-center text-md-start py-5 py-md-0">
             <div>
                 <p class="cursive fs-3 m-0 text-warning">Titulo</p>
             </div>
-            <div>
+            <div class="">
                 <div class="selectors">
                 </div>
-                <div class="title">
+                <div class="title jus">
                     <h1 class="fs-1">ASPAAH - Inicio</h1>
                     <a href="#" class="text-dark border-10 my-3 btn btn-success py-1 px-3">Ver ahora</a>
                 </div>
             </div>
         </div>
         <!-- Imagen Main-->
-        <div class="col-md-5 img-main">
-            <img src="img/maq1.png" width="100%" alt="">
+        <div class="col-md-5 img-main my-auto">
+            <img src="img/Serie%20F.png" width="100%" alt="">
         </div>
         <div class="col-md-1 text-center text-white d-md-block d-flex align-items-center">
             <div class="bg-white my-2" id="line"></div>
@@ -61,28 +59,32 @@
     </main>
 
 </header>
+
 <!-- Content -->
 <div class="container-fluid bg-white">
-    <!-- Slide Content -->
-    <div class="py-4">
-        <div id="carouselExampleCaptions" class="carousel slide" aling=center data-bs-ride="carousel">
+    <!-- Slide Content 1-->
+    <div id="line-slide" class="d-flex justify-content-center align-items-center bg-white ">
+        <h1 class=" m-0 d-inline-block p-3 ">Nuestras Maquinarias</h1>
+    </div>
+    <hr size="8px" color="black" />
+    <div class="py-4 ">
+        <div id="carouselExampleCaptions" class="carousel slide" aling=center data-bs-ride="carousel" style="height: 600px">
             <div class="carousel-indicators">
                 <button id="indicators" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button id="indicators" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button id="indicators" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button id="indicators" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 <button id="indicators" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-
             </div>
 
             <div class="carousel-inner">
                 <div id="carousel-item" class="carousel-item active p-2">
                     <div class="container-item">
                         <div class="border w-50 border-warning">
-                            <img src="img/tractor1.png" class="w-100" alt="...">
+                            <img src="img/Serie%20F.png" class="w-100" alt="...">
                             <div class="text-center">
                                 <h5 class="m-0 text-warning">Tractor 1</h5>
-                                <p class="text-white">Disponible</p>
+                                <p class="text-dark">Disponible</p>
                             </div>
                         </div>
                     </div>
@@ -90,10 +92,10 @@
                 <div id="carousel-item" class="carousel-item p-2">
                     <div class="container-item">
                         <div class="border w-50 border-warning">
-                            <img src="img/tractor2.png" class="w-100" alt="...">
+                            <img src="img/Serie%20A.png" class="w-100" alt="...">
                             <div class="text-center">
                                 <h5 class="m-0 text-warning">Tractor 2</h5>
-                                <p class="text-white">Disponible</p>
+                                <p class="text-dark">Disponible</p>
                             </div>
                         </div>
                     </div>
@@ -101,10 +103,10 @@
                 <div id="carousel-item" class="carousel-item p-2">
                     <div class="container-item">
                         <div class="border w-50 border-warning">
-                            <img src="img/tractor3.png" class="w-100" alt="...">
+                            <img src="img/Serie%20G.png" class="w-100" alt="...">
                             <div class="text-center">
                                 <h5 class="m-0 text-warning">Tractor 3</h5>
-                                <p class="text-white">Disponible</p>
+                                <p class="text-dark">Disponible</p>
                             </div>
                         </div>
                     </div>
@@ -112,10 +114,10 @@
                 <div id="carousel-item" class="carousel-item p-2">
                     <div class="container-item">
                         <div class="border w-50 border-warning">
-                            <img src="img/tractor4.png" class="w-100" alt="...">
+                            <img src="img/Serie%20N.png" class="w-100" alt="...">
                             <div class="text-center">
                                 <h5 class="m-0 text-warning">Tractor 4</h5>
-                                <p class="text-white">Disponible</p>
+                                <p class="text-dark">Disponible</p>
                             </div>
                         </div>
                     </div>
@@ -123,10 +125,10 @@
                 <div id="carousel-item" class="carousel-item p-2">
                     <div class="container-item">
                         <div class="border w-50 border-warning">
-                            <img src="img/tractor5.png" class="w-100" alt="...">
+                            <img src="img/Serie%20S.png" class="w-100" alt="...">
                             <div class="text-center">
                                 <h5 class="m-0 text-warning">Tractor 5</h5>
-                                <p class="text-white">Disponible</p>
+                                <p class="text-dark">Disponible</p>
                             </div>
                         </div>
                     </div>
@@ -147,8 +149,9 @@
         <!-- Slider 3  -->
 
         <div id="line-slide" class="d-flex justify-content-center align-items-center bg-white my-3">
-            <h2 class=" m-0 d-inline-block p-3 ">Nuestros Productos</h2>
+            <h1 class=" m-0 d-inline-block p-3 ">Nuestros Productos</h1>
         </div>
+        <hr size="8px" color="black" />
         <div class="slider-container">
             <div class="glide">
                 <div class="glide__track" data-glide-el="track">
@@ -186,7 +189,7 @@
 
     <!-- About us -->
     <span id="nosotros"></span>
-    <div class="container-fluid bg-info" >
+    <div class="container-fluid bg-success" >
         <div class="container">
             <div class="row content-info h-100 py-5">
                 <div class="col-md-3 imagen-inform d-flex">
@@ -205,7 +208,7 @@
     <!-- Partners -->
     <div class="container-fluid py-5">
         <div class="row">
-            <div class="col-md-3 d-md-flex align-items-center text-center bg-info py-4">
+            <div class="col-md-3 d-md-flex align-items-center text-center bg-success py-4">
                 <div class="socios-int text-white">
                     <p class="m-0 fs-4 cursive text-warning">Lorem, ipsum dolor.</p>
                     <h2 class="mb-4">Socios</h2>

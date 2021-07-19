@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.::PRODUCTOS::.</title>
     <link rel="stylesheet" href="css/mainstyle.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slider.css">
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,26 +18,24 @@
 </head>
 <body class="bg-secondary">
 <!-- Header -->
-<header class="container-fluid py-2 pt-4">
+<header class="container-fluid py-2 pt-4" style="height: 400px; background-repeat: no-repeat;background-size: cover; background-image: url('./img/FondoPantalla2.jpeg')">
     <!-- NavBar -->
     <?php
     include ("php/sesiones.php")
     ?>
     <!-- Main -->
-    <main class="row title-container py-5">
+    <main class="row title-container m-auto" style="height: 400px;">
         <!-- Title -->
-        <div class="col-md-6 d-flex flex-column ps-md-5 text-center py-5 ">
-            <div>
-                <p class="cursive fs-3 m-0 text-warning">Titulo</p>
-            </div>
-            <div>
-                <div class="title">
-                    <h1 class="fs-1">ASPAAH - Productos</h1>
+        <div class="col-md-6 d-flex justify-content-center flex-column ps-md-5 text-center text-md-start py-5 py-md-0">
+            <div class="">
+                <div class="selectors">
+                </div>
+                <div class="title jus">
+                    <h1 class="fs-1 text-dark">ASPAAH - Productos</h1>
                 </div>
             </div>
         </div>
         <!-- Imagen Main-->
-
         <div class="col-md-1 text-center text-white d-md-block d-flex align-items-center">
             <div class="bg-white my-2" id="line"></div>
             <div class="d-flex d-md-block">
@@ -49,87 +47,315 @@
     </main>
 </header>
 <!-- Content -->
-<div class="container-fluid bg-white">
+<div class="container-fluid bg-white py-5">
     <!-- Slide Content -->
-    <div class="py-4">
-        <div id="carouselExampleCaptions" class="carousel slide" aling=center data-bs-ride="carousel">
+    <div class="">
+        <div id="carouselExampleCaptions" class="carousel slide pb-5" aling=center data-bs-ride="carousel">
             <!-- Slider -->
             <!-- Slider -->
             <div id="line-slide" class="d-flex justify-content-center align-items-center bg-white my-3">
-                <p class="cursive fs-3 m-0 text-warning">Maquinas Agricolas</p>
+                <p class="letra cursive fs-3 m-0 text-warning">Maquinas Agricolas</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="img/Serie F.png" class="rounded" width="345px">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="img/Serie A.png" class="rounded" width="345px">
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="img/Serie G.png" class="rounded" width="345px">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/tractor1.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/tractor2.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/tractor3.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/tractor4.png" class="rounded" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/tractor5.png" class="rounded" alt="">
-                        </div>
-                    </div>
-                </div>
+                <div class="row">
 
-            </div>
-            <div id="line-slide" class="d-flex justify-content-center align-items-center bg-white my-3">
-                <p class="cursive fs-3 m-0 text-warning">Quesos Y Lacteos</p>
+                    <div class="col">
+                        <div class="col-9">
+                            <table class="table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Modelo :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">F75</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Cilindros :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">4</p></td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Potencia :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">Kw 55 /</p></td>
+                                        <td><p class="letra2 cursive text-secundary">Nm 320</p></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-9">
+                            <table class="table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Modelo :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">A75</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Cilindros :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">3</p></td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Potencia :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">Kw 56 /</p></td>
+                                        <td><p class="letra2 cursive text-secundary">Nm 312</p></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="col-9">
+                            <table class="table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Modelo :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">G105</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Cilindros :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">4</p></td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Potencia :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">Kw 78 /</p></td>
+                                        <td><p class="letra2 cursive text-secundary">Nm 490</p></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/que2.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/que3.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/que4.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/que1.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <img src="img/que5.png" class="rounded" width="400px">
-                        </div>
-                    </div>
-                </div>
+                <div class="row">
 
+                    <div class="col">
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-danger">Revisar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-danger">Revisar</button>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                       <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-danger">Revisar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="img/Serie N.png" class="rounded" width="345px">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="img/Serie T.png" class="rounded" width="345px">
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="img/Serie S.png" class="rounded" width="345px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="col-9">
+                            <table class="table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Modelo :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">N335</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Cilindros :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">4</p></td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Potencia :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">Kw 99 /</p></td>
+                                        <td><p class="letra2 cursive text-secundary">Nm 620</p></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-10">
+                            <table class="table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Modelo :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">T144</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Cilindros :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">6</p></td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Potencia :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">Kw 118 /</p></td>
+                                        <td><p class="letra2 cursive text-secundary">Nm 640</p></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="col-10">
+                            <table class="table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Modelo :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">S274</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Cilindros :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">8</p></td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><p class="letra2 cursive text-danger">Potencia :</p></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p class="letra2 cursive text-secundary">Kw 206 /</p></td>
+                                        <td><p class="letra2 cursive text-secundary">Nm 1220</p></td>  
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-danger">Revisar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-danger">Revisar</button>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                       <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-danger">Revisar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>    <!-- About us -->
+</div>
 
-<footer id="footer" class="footer style_1 bg-info pt-5">
+
+<footer id="footer" class="footer style_1 bg-dark pt-5">
     <div class="widgets_row">
         <div class="container">
             <div class="footer_widgets">

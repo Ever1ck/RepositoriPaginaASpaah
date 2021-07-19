@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.::CONTACTANOS::.</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap" rel="stylesheet">
@@ -18,26 +19,24 @@
 </head>
 <body>
 <!-- Header -->
-<header class="container-fluid py-2 pt-4 mb-5" style="height: 400px; background-image: url('./img/fondo2.jpg');">
+<header class="container-fluid py-2 pt-4" style="height: 400px; background-repeat: no-repeat;background-size: cover; background-image: url('./img/fondo2.jpg')">
     <!-- NavBar -->
     <?php
     include ("php/sesiones.php")
     ?>
     <!-- Main -->
-    <main class="row title-container py-5">
+    <main class="row title-container m-auto" style="height: 400px;">
         <!-- Title -->
-        <div class="col-md-6 d-flex flex-column ps-md-5 text-center py-5 ">
-            <div>
-                <p class="cursive fs-3 m-0 text-warning">Titulo</p>
-            </div>
-            <div>
-                <div class="title">
-                    <h1 class="fs-1">ASPAAH - Contáctanos</h1>
+        <div class="col-md-6 d-flex justify-content-center flex-column ps-md-5 text-center text-md-start py-5 py-md-0">
+            <div class="">
+                <div class="selectors">
+                </div>
+                <div class="title jus">
+                    <h1 class="fs-1 text-white">ASPAAH - Contactanos</h1>
                 </div>
             </div>
         </div>
         <!-- Imagen Main-->
-
         <div class="col-md-1 text-center text-white d-md-block d-flex align-items-center">
             <div class="bg-white my-2" id="line"></div>
             <div class="d-flex d-md-block">
@@ -173,7 +172,7 @@
     </div>
 </div>
 <!-- Footer -->
-<footer id="footer" class="footer style_1 bg-info pt-5">
+<footer id="footer" class="footer style_1 bg-dark pt-5">
     <div class="widgets_row">
         <div class="container">
             <div class="footer_widgets">

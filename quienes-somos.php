@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.::QUIENES SOMOS::.</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slider.css">
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,27 +19,26 @@
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 <body>
+
 <!-- Header -->
-<header class="container-fluid py-2 pt-4 mb-5" style="height: 400px; background-image: url('./img/fondo2.jpg');">
+<header class="container-fluid py-2 pt-4" style="height: 400px; background-repeat: no-repeat;background-size: cover; background-image: url('./img/FondoPantalla2.jpeg');">
     <!-- NavBar -->
     <?php
     include ("php/sesiones.php")
     ?>
     <!-- Main -->
-    <main class="row title-container py-5">
+    <main class="row title-container m-auto" style="height: 400px;">
         <!-- Title -->
-        <div class="col-md-6 d-flex flex-column ps-md-5 text-center py-5 ">
-            <div>
-                <p class="cursive fs-3 m-0 text-warning">Titulo</p>
-            </div>
-            <div>
-                <div class="title">
-                    <h1 class="fs-1">ASPAAH - Quienes Somos</h1>
+        <div class="col-md-6 d-flex justify-content-center flex-column ps-md-5 text-center text-md-start py-5 py-md-0">
+            <div class="">
+                <div class="selectors">
+                </div>
+                <div class="title jus">
+                    <h1 class="fs-1 text-dark">ASPAAH - ¿Quienes Somos?</h1>
                 </div>
             </div>
         </div>
         <!-- Imagen Main-->
-
         <div class="col-md-1 text-center text-white d-md-block d-flex align-items-center">
             <div class="bg-white my-2" id="line"></div>
             <div class="d-flex d-md-block">
@@ -51,10 +50,10 @@
     </main>
 </header>
 <!-- Content -->
-<div class="container-fluid bg-white mb-5">
+<div class="container-fluid bg-white py-5">
     <div class="container">
         <div class="row mb3">
-            <div class="col-md-8">
+            <div class="col-6">
                 <div class="row">
                     <div class="row px-5">
                         <p style="text-align: justify;">
@@ -84,13 +83,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="m-auto">
+            <div class="col-6 m-auto">
+                <div class="col-8 m-auto">
                     <div class="d-flex">
                         <div class="m-auto align-content-center">
-                            <figure class="d-flex">
-                                <div class="img-qs-2 overflow-hidden">
-                                    <img width="667" height="667" src="img/vaca2.jpg" class="border border-dark rounded-circle overflow-hidden" alt="" srcset="https://inaem.pe/wp-content/uploads/2017/06/quienes-somos.jpg 667w, https://inaem.pe/wp-content/uploads/2017/06/quienes-somos-150x150.jpg 150w, https://inaem.pe/wp-content/uploads/2017/06/quienes-somos-300x300.jpg 300w, https://inaem.pe/wp-content/uploads/2017/06/quienes-somos-50x50.jpg 50w, https://inaem.pe/wp-content/uploads/2017/06/quienes-somos-320x320.jpg 320w" sizes="(max-width: 667px) 100vw, 667px">
+                            <figure class="d-flex ">
+                                <div class="img-qs-2 rounded-circle overflow-hidden border border-dark">
+                                    <img src="img/vaca2.jpg" class="img-fluid" alt="">
                                 </div>
                             </figure>
                         </div>
@@ -101,9 +100,9 @@
     </div>
     <!-- Somos -->
 </div>
-<div class="container"><!-- Mision -->
-    <div class="row align-items-start"><!-- Mision -->
-        <div class="col-sm-8">
+<div class="container my-5"><!-- Mision -->
+    <div class="row"><!-- Mision -->
+        <div class="col-8">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element  vc_custom_1495779039000">
@@ -130,55 +129,56 @@
             </div>
         </div>
         <div class="col-sm-3">
-            <div class="col-sm-7 m-auto">
+            <div class="col-7 m-auto">
                 <div class="d-flex">
                     <div class="m-auto align-content-center">
                         <figure class="d-flex">
-                            <div class="img-qs-2 ">
-                                <img class="overflow-hidde" src="img/vaxa.png" width="667" height="667" alt="" title="">
+                            <div class="img-qs-2">
+                                <img class="img-fluid" src="img/vaxa.png" alt="" title="">
                             </div>
                         </figure>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </div>
 </div>
-<div class="container"><!-- Vision -->
+<div class="container my-5"><!-- Vision -->
     <div class="row"><!-- Vision -->
-        <div class="col-sm-8">
+        <div class="col-8">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element  vc_custom_1495779039000">
                         <div class="wpb_wrapper">
                             <p style="text-align: center;">
-                                                    <span style="font-size: 24pt;">
-                                                        <strong>Visión</strong>
-                                                    </span>
+                                <span style="font-size: 24pt;">
+                                    <strong>Visión</strong>
+                                </span>
                             </p>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="wpb_wrapper">
                             <p style="text-align: center;">
-                                                    <span style="font-size: 12pt;">
-                                                        <span style="vertical-align: inherit;">
-                                                            “Al 2021 ser la empresa líder en asesoría y consultoría en materia contable, tributaria y financiera de las micro y pequeñas empresas del norte del país.”
-                                                        </span>
-                                                    </span>
+                                <span style="font-size: 12pt;">
+                                    <span style="vertical-align: inherit;">
+                                        “Al 2021 ser la empresa líder en asesoría y consultoría en materia contable, tributaria y financiera de las micro y pequeñas empresas del norte del país.”
+                                    </span>
+                                </span>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-3">
             <div class="col-sm-7 m-auto">
                 <div class="d-flex">
                     <div class="m-auto align-content-center">
                         <figure class="d-flex">
                             <div class="img-qs-2">
-                                <img class="overflow-hidde" src="img/maq1.png" width="667" height="667" alt="" title="">
+                                <img class="img-fluid" src="img/maq1.png" alt="" title="">
                             </div>
                         </figure>
                     </div>
@@ -187,10 +187,10 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row">
+<div class="container my-5">
+    <div class="row ">
         <div class="col-sm-6">
-            <div class="vc_column-inner ">
+            <div class="vc_column-inner">
                 <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element">
                         <div class="wpb_wrapper">
@@ -226,9 +226,9 @@
                     <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
                             <ul>
-                                <li><span style="font-size: 12pt;">Presentarte información financiera y económica de una manera oportuna.</span></li>
-                                <li><span style="font-size: 12pt;">Solucionar tus problemas actuales con SUNAT y realizar un eficiente uso de la legislación vigente.</span></li>
-                                <li><span style="font-size: 12pt;">Lograr que tu empresa tenga un uso eficiente de sus recursos financieros.</span></li>
+                                <li><span style="font-size: 12pt;">Ser la mejor empresa Agropecuaria.</span></li>
+                                <li><span style="font-size: 12pt;">Solucionar los probelmas.</span></li>
+                                <li><span style="font-size: 12pt;">Lograr Salir adelante a los socios.</span></li>
                             </ul>
                         </div>
                     </div>
